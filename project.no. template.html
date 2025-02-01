@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Project Name | Elizabeth Suarez</title>
+  <link href="project.template.styles.css" rel="stylesheet">
+  <script>
+  //Credit to OpenAI's GPT-3.5 model
+  function CopyCodeToClipboard() {
+  // Get the <pre> element
+  var codeElement = document.getElementById("code2bcopied");
+
+  if (codeElement) {
+    // Create a range for the <pre> element
+    var range = document.createRange();
+    range.selectNode(codeElement);
+
+    // Select the content of the <pre> element
+    var selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+
+    // Copy the selected content
+    try {
+      var successful = document.execCommand("copy");
+      var message = successful ? "Code copied to clipboard!" : "Copying failed.";
+      alert(message);
+    } catch (err) {
+      console.error("Unable to copy: ", err);
+    }
+
+    // Clear the selection
+    selection.removeAllRanges();
+  } else {
+    alert("No <pre> element found.");
+  }
+}
+  //end credit to OpenAI's GPT-3.5 model
+  </script>
+</head>
+
+<body>
+		<!-- website header -->
+
+<div class="header-size bottomborder">
+<header> 
+
+<h1 class="normal-weight name-position">Elizabeth Suarez</h1> 
+
+<img src="images/header.clipart.alt.png" width="7%" height="12%" class="logo-position">
+
+<p class="catchphrase-position">journey of creation</p>
+
+		<!--navigation-->
+<nav>
+<a href="home.html"> <button class="nav-1-position nav-button-visuals rounded-style nav-button-dimensions"> Home </button> </a>
+
+<a href="portfolio.html"> <button class="nav-2-position nav-button-visuals rounded-style nav-button-2-dimensions underline"><ins> Portfolio </ins></button> </a>
+
+<a href="about.html"> <button class="nav-3-position nav-button-visuals rounded-style nav-button-3-dimensions"> About </button> </a>
+
+<!--fix position and link: 
+<a href="contact.html"> <button class="nav-button-visuals rounded-style nav-button-dimensions"> Contact </button> </a> --> 
+
+</nav>
+</div>
+               <!--main begins-->        
+<main>
+
+  <div> <!--name and title-->
+  <a href="portfolio.html"> <button class="back-button-visuals rounded-style nav-button-3-dimensions back-button-position"> <-Back </button> </a>
+  <p class="titlesize titleposition"> Project Title </p>
+  <p class="dateposition datecolor"> By: Elizabeth Suarez </p>
+  <p class="dateposition datecolor dateposition2"> Date </p>
+  </div>
+
+  <div class="maincontainer centering"> <!--container setting-->
+  
+     <div>
+       <img src="images/b1.png" class="articlesizing">
+     </div>
+
+     <div class="articlesizing">
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper feugiat nibh sed. Tellus at urna condimentum mattis. Bibendum est ultricies integer quis auctor. Nulla pellentesque dignissim enim sit amet venenatis urna cursus. Nulla aliquet porttitor lacus luctus accumsan tortor. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Volutpat consequat mauris nunc congue nisi vitae. Purus viverra accumsan in nisl nisi. Donec ac odio tempor orci dapibus. In dictum non consectetur a erat nam. Eu lobortis elementum nibh tellus molestie nunc. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Tincidunt dui ut ornare lectus sit. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. </p>
+
+<p>Ac orci phasellus egestas tellus rutrum. Suspendisse in est ante in nibh mauris. Arcu risus quis varius quam. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Porttitor lacus luctus accumsan tortor. Odio morbi quis commodo odio. Vulputate enim nulla aliquet porttitor lacus luctus. Dictumst quisque sagittis purus sit amet volutpat consequat. Sed felis eget velit aliquet sagittis id consectetur. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Morbi tristique senectus et netus et malesuada. Diam sollicitudin tempor id eu. Ac auctor augue mauris augue neque. Enim neque volutpat ac tincidunt vitae semper quis lectus. Habitant morbi tristique senectus et. Neque sodales ut etiam sit amet nisl. In nisl nisi scelerisque eu ultrices vitae. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin.</p>
+    </div>
+    
+    <div class="centering container4container">
+ 
+      <div class="upperline-dims centering codenamebox">
+        <p class="textcolorwhite">Fantasy.py</p>
+      </div>
+      
+      <p><pre class="overflowscroll codebox box-shadow codeboxposition centering terminaloutline" id="code2bcopied">
+#!/usr/bin/env python
+#fantasy_game.py
+#interactive fantasy game: Rise to Wealth
+#Elizabeth Suarez
+
+print("Rise to Wealth: an interactive fantasy game by Elizabeth Suarez")
+
+score = int(0)
+
+print("You are a common woman in the kingdom of Ipo.")
+print("Your goal is to leave this life of poverty and walk into one of lavish.")
+print("Will you meet your goal and survive or fail and perish?")
+
+
+name = input("What is your name? ")
+
+print("Nice to meet you, " + name + "!")
+
+ </pre></p>
+
+    <div class="cb-dimensions cbmargins">
+      <button onclick="CopyCodeToClipboard()" class="cb-dimensions rounded-style copy-button-visuals">Copy code📋</button>
+    </div>
+    </div>
+
+  <div class="articlesizing">
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper feugiat nibh sed. Tellus at urna condimentum mattis. Bibendum est ultricies integer quis auctor. Nulla pellentesque dignissim enim sit amet venenatis urna cursus. Nulla aliquet porttitor lacus luctus accumsan tortor. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Volutpat consequat mauris nunc congue nisi vitae. Purus viverra accumsan in nisl nisi. Donec ac odio tempor orci dapibus. In dictum non consectetur a erat nam. Eu lobortis elementum nibh tellus molestie nunc. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Tincidunt dui ut ornare lectus sit. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. </p>
+    </div>
+
+  <div class="container4container2 centering tutorial-beginning-position addmarginbelow"> 
+    <div class="articlesizing centering">
+      <p>In case you don't know how to use the compiler, enjoy the small tutorial below. If you do know how to use a compiler, click the button below to go straight to the compiler.</p>
+   
+    </div>
+  
+    <div class="centering skip-button-dims">
+   <!--change link depending on language used in project-->
+      <a href="https://www.programiz.com/python-programming/online-compiler/"><button class="skip-button rounded-style copy-button-visuals">Go to compiler➞</button></a>
+    </div>
+  </div>
+
+  <div class="centering container4container">
+ 
+    <div class="upperline-dims centering codenamebox">
+      <p class="textcolorwhite">Fantasy.py</p>
+    </div>
+    
+    <p><pre class="overflowscroll codebox box-shadow codeboxposition centering terminaloutline" id="code2bcopied">
+#!/usr/bin/env python
+#fantasy_game.py
+#interactive fantasy game: Rise to Wealth
+#Elizabeth Suarez
+
+print("Rise to Wealth: an interactive fantasy game by Elizabeth Suarez")
+
+score = int(0)
+
+print("You are a common woman in the kingdom of Ipo.")
+print("Your goal is to leave this life of poverty and walk into one of lavish.")
+print("Will you meet your goal and survive or fail and perish?")
+
+
+name = input("What is your name? ")
+
+print("Nice to meet you, " + name + "!")
+
+</pre></p>
+
+  <div class="cb-dimensions cbmargins">
+    <button onclick="CopyCodeToClipboard()" class="cb-dimensions rounded-style copy-button-visuals">Copy code📋</button>
+  </div>
+  </div>
+
+<div class="articlesizing">
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper feugiat nibh sed. Tellus at urna condimentum mattis. Bibendum est ultricies integer quis auctor. Nulla pellentesque dignissim enim sit amet venenatis urna cursus. Nulla aliquet porttitor lacus luctus accumsan tortor. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Volutpat consequat mauris nunc congue nisi vitae. Purus viverra accumsan in nisl nisi. Donec ac odio tempor orci dapibus. In dictum non consectetur a erat nam. Eu lobortis elementum nibh tellus molestie nunc. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Tincidunt dui ut ornare lectus sit. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. </p>
+  </div>
+
+<div class="container4container2 centering tutorial-beginning-position addmarginbelow"> 
+  <div class="articlesizing centering">
+    <p>In case you don't know how to use the compiler, enjoy the small tutorial below. If you do know how to use a compiler, click the button below to go straight to the compiler.</p>
+ 
+  </div>
+
+  <div class="centering skip-button-dims">
+ <!--change link depending on language used in project-->
+    <a href="https://www.programiz.com/python-programming/online-compiler/"><button class="skip-button rounded-style copy-button-visuals">Go to compiler➞</button></a>
+  </div>
+</div>
+    
+
+<!--EXTRA-->
+<div class="container4container centering pinkoutline"> 
+
+    <div>
+      <p class="fontsize50">Ignore: Tutorial: How to use a Compiler</p>
+    </div>
+
+    <div class="centering howto-images">
+      <img src="images/compiler.howto1.png" class="howto-images">
+     </div>
+
+    <div>
+    <!--change link depending on language used in project-->
+    <a href="https://www.programiz.com/python-programming/online-compiler/" id="compiler" target="_blank"><button>Go to compiler➞</button></a>
+  </div>
+
+  </div>
+
+
+  </div>  <!-- main container ends -->
+
+  <div class="prefooterspacer">
+    </div>
+
+                 <!-- main ends -->
+</main>
+
+                          <!-- footer -->
+  <footer class="footercolor footersize footercontainer topcontainerpadding">
+
+    
+
+      <div>
+        <p class="font-1 linksmargin"><b> Links: </b></p>
+        <a href="home.html"> <p class="colorchange lineheightchange linksletterspacing font17"> Home </p> </a>
+        <a href="portfolio.html"> <p class="colorchange lineheightchange linksletterspacing font17">  Portfolio </p> </a>
+        <a href="about.html"> <p class="colorchange lineheightchange linksletterspacing font17">  About </p> </a>
+      </div>
+      
+      <div>
+         <p class="font-1 linksmargin"><b>Curious?</b></p>
+         <p class="colorchange lineheightchange linksletterspacing font17">What's Next</p>
+         <p class="colorchange lineheightchange linksletterspacing font17">Most Recent Project</p>
+         <p class="colorchange lineheightchange linksletterspacing font17">Latest Updates</p>
+      </div>
+
+
+      <div>
+        <br>
+        <br>
+        <br>
+        <p class="font14half linksletterspacing linksmargin"> Last updated: 8/23 </p>
+        <p class="font17 linksletterspacing"> Created by <span class="namelink">Elizabeth Suarez</span></p>
+      </div>
+
+
+  </footer>
+
+                <!-- closing open arrows/brackets -->
+</body>
+</html>

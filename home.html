@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home | Elizabeth Suarez</title>
+  <link href="home.styles.css" rel="stylesheet">
+  <link href="portfolio.style.css" rel="stylesheet">
+  
+</head>
+
+		 <!-- body begins -->
+<body>
+<div>
+
+		<!-- website header -->
+<div class="header-size">
+<header> 
+
+<h1 class="normal-weight name-position">Elizabeth Suarez</h1> 
+
+<img src="images/header.clipart.alt.png" width="7%" height="12%" class="logo-position">
+
+<p class="catchphrase-position">journey of creation</p>
+
+
+
+</header>
+
+		<!--navigation-->
+<nav>
+<a href="home.html"> <button class="nav-1-position nav-button-visuals rounded-style nav-button-dimensions"> Home </button> </a>
+
+<a href="portfolio.html"> <button class="nav-2-position nav-button-visuals rounded-style nav-button-2-dimensions"> Portfolio </button> </a>
+
+<a href="about.html"> <button class="nav-3-position nav-button-visuals rounded-style nav-button-3-dimensions"> About </button> </a>
+
+<!--fix position and link: 
+<a href="contact.html"> <button class="nav-button-visuals rounded-style nav-button-dimensions"> Contact </button> </a> --> 
+
+</nav>
+</div>
+
+		<!-- main begins -->
+<main>
+
+		<!--welcome section/banner -->
+
+<div class="b-image-1 reg-div"> 
+
+
+<p class="font-size-1 font2 welcome-position">Welcome</p> 
+
+
+<article>
+<p class="welcome-desc-position font-size-2"> Come take a look at what I do or have a look around. </p>
+</article>
+
+<article>
+<a href="portfolio.html"> <button class="rounded-style main-button-visuals main-button-size explore-button-position"> Explore Portfolio </button> </a>
+</article>
+
+<p> <pre>
+
+</pre></p>
+
+</div>
+		<!--next section -->
+
+<div class="reg-div temp b-image-2">
+
+
+
+<div class="explore-more-position temp zlevel5">
+
+<p class="font-size-1 font2" >
+Learn About Me
+</p>
+
+</div>
+
+<div class="temp">
+<p class="fontcolorgrn code-dimensions opacity1">
+
+using namespace std;
+
+// Function to create and output all permutations of the list of names.
+void PrintAllPermutations(const vector &permList, vector &nameList) {
+    vector temppermList;
+    string tempRemoved;
+
+    if (permList.size() == 0) {
+        for (const auto& name : nameList) {
+            cout << name << " ";
+        }
+        cout << endl;
+
+ </p> 
+</div>
+
+<div>
+<p class="fontcolorgrn code-dimensions opacity1">
+} else {
+        for (size_t i = 0; i < permList.size(); i++) {
+            temppermList = permList;
+            tempRemoved = temppermList.at(i);
+            temppermList.erase(temppermList.begin() + i);
+            nameList.push_back(tempRemoved);
+
+            PrintAllPermutations(temppermList, nameList);
+
+            nameList.pop_back();
+</p>
+</div>
+
+<div class="temp mid-div<!--maybe not this size for middiv--!>">
+
+<div>
+</div>
+
+</div>
+
+
+</div>
+
+                  <!--next section -->
+
+<div class="reg-div">
+
+<p><pre>
+
+third section
+
+
+space to scroll 
+
+
+space to scroll 
+
+
+
+
+
+
+
+
+
+
+more 1
+
+
+
+
+
+
+
+
+more 2
+
+
+
+
+
+more 3 (this is overflow)
+
+</pre> </p>
+</div>
+
+		<!--main ends-->
+
+</main>
+
+		                        <!-- footer -->
+  <footer class="footercolor footersize footercontainer topcontainerpadding">
+
+    
+
+      <div>
+        <p class="font-1 linksmargin"><b> Links: </b></p>
+        <a href="home.html"> <p class="colorchange lineheightchange linksletterspacing font17"> Home </p> </a>
+        <a href="portfolio.html"> <p class="colorchange lineheightchange linksletterspacing font17">  Portfolio </p> </a>
+        <a href="about.html"> <p class="colorchange lineheightchange linksletterspacing font17">  About </p> </a>
+      </div>
+      
+      <div>
+         <p class="font-1 linksmargin"><b>Curious?</b></p>
+         <p class="colorchange lineheightchange linksletterspacing font17">What's Next</p>
+         <p class="colorchange lineheightchange linksletterspacing font17">Most Recent Project</p>
+         <p class="colorchange lineheightchange linksletterspacing font17">Latest Updates</p>
+      </div>
+
+
+      <div>
+        <br>
+        <br>
+        <br>
+        <p class="font14half linksletterspacing linksmargin"> Last updated: 5/22 </p>
+        <p class="font17 linksletterspacing"> Created by <span class="namelink">Elizabeth Suarez</span></p>
+      </div>
+
+
+  </footer>
+
+	<!-- closing open arrows/brackets-->
+
+</div>
+</body>
+</html>

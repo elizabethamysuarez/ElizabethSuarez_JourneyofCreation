@@ -1,0 +1,36 @@
+! notes 
+  -The best fonts for programming are Fira Code, Consolas, Input, DejaVu Sans Mono, JetBrains Mono, and MonoLisa. 
+  -change header to fixed?
+  -start brainstorming what website is going to say
+  -scalability, change it for window
+  -make nav-4 and update other pages with that
+  -update each webpage with grid when learned
+  -"see this font all day and don't want to look at it anymore? Change the font"
+  -completely separate html and css
+  -adjust height and width, margins and paddings of each element if needed
+  -add home hyperlink to website logo
+  -maybe add blue to white gradient from top to bottom on portfolio page since it is very white
+  -alt plant photo is the cropped one for the header, and the other one is for the portfolio page
+ -dont forget icon that goes above in bookmarks area
+
+The majority of screen resolutions are at a 1024 × 768 px minimum and a 1920 × 1080 px maximum (desktop website size), and the average size of web pages is 960 px. wxh 1280×720
+130% font size?
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 9%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);;
+
+
+Lorem ipsum sphiel:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper feugiat nibh sed. Tellus at urna condimentum mattis. Bibendum est ultricies integer quis auctor. Nulla pellentesque dignissim enim sit amet venenatis urna cursus. Nulla aliquet porttitor lacus luctus accumsan tortor. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Volutpat consequat mauris nunc congue nisi vitae. Purus viverra accumsan in nisl nisi. Donec ac odio tempor orci dapibus. In dictum non consectetur a erat nam. Eu lobortis elementum nibh tellus molestie nunc. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Tincidunt dui ut ornare lectus sit. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et.
+
+Ac orci phasellus egestas tellus rutrum. Suspendisse in est ante in nibh mauris. Arcu risus quis varius quam. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Porttitor lacus luctus accumsan tortor. Odio morbi quis commodo odio. Vulputate enim nulla aliquet porttitor lacus luctus. Dictumst quisque sagittis purus sit amet volutpat consequat. Sed felis eget velit aliquet sagittis id consectetur. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Morbi tristique senectus et netus et malesuada. Diam sollicitudin tempor id eu. Ac auctor augue mauris augue neque. Enim neque volutpat ac tincidunt vitae semper quis lectus. Habitant morbi tristique senectus et. Neque sodales ut etiam sit amet nisl. In nisl nisi scelerisque eu ultrices vitae. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin.
+
+Porta nibh venenatis cras sed felis. Dis parturient montes nascetur ridiculus mus mauris. Integer enim neque volutpat ac tincidunt vitae. Malesuada bibendum arcu vitae elementum. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Consequat semper viverra nam libero justo laoreet sit. Sit amet purus gravida quis blandit turpis cursus in hac. Leo duis ut diam quam nulla porttitor massa. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Semper quis lectus nulla at volutpat diam ut venenatis tellus.
+
+Non diam phasellus vestibulum lorem sed risus. Auctor neque vitae tempus quam pellentesque nec. Vestibulum lectus mauris ultrices eros in. In mollis nunc sed id semper risus in. Curabitur vitae nunc sed velit dignissim. Gravida cum sociis natoque penatibus et magnis. Bibendum at varius vel pharetra vel. Placerat duis ultricies lacus sed. Magna sit amet purus gravida quis. Duis convallis convallis tellus id interdum velit. Nisl condimentum id venenatis a condimentum vitae sapien. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis. Eget sit amet tellus cras adipiscing. Nisi lacus sed viverra tellus in hac habitasse platea dictumst. Egestas maecenas pharetra convallis posuere morbi leo. Aliquam purus sit amet luctus venenatis lectus magna. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare.
+
+At in tellus integer feugiat scelerisque varius morbi enim. Sociis natoque penatibus et magnis dis parturient. Sapien eget mi proin sed libero. Non curabitur gravida arcu ac tortor dignissim. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Posuere ac ut consequat semper viverra nam. Orci phasellus egestas tellus rutrum tellus pellentesque eu. Viverra maecenas accumsan lacus vel. Aliquam purus sit amet luctus venenatis lectus magna fringilla. Purus ut faucibus pulvinar elementum integer enim neque. Sit amet tellus cras adipiscing enim eu turpis egestas. Amet mattis vulputate enim nulla aliquet. Egestas diam in arcu cursus euismod quis. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. At tempor commodo ullamcorper a lacus. Accumsan in nisl nisi scelerisque eu. Massa enim nec dui nunc mattis enim ut tellus. Duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Neque volutpat ac tincidunt vitae semper quis lectus nulla.

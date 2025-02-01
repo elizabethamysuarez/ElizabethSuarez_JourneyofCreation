@@ -1,0 +1,93 @@
+/* contact.styles.css */
+
+*font {
+  color: black;
+  font-family: Consolas, "Courier New", Monaco, "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.header-desc-position { /* header desc words position */
+  margin: 0;
+  position: absolute;
+  top: 11%;
+  left: 13%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);;
+}
+.font-1 {	/* font style 1: code likeness */
+  color: black;
+  font-family: consolas;
+  <!--font-size:-->
+}
+
+                                    /* ---navigation buttons--- */
+
+.nav-button-visuals {  /* sets navigation link button visuals */
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 1px 1px
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+.nav-button-visuals:hover {
+  background-color: #aec289;
+  color: black;
+}
+
+.nav-button-dimensions { /* sets navigation link button width and height */
+  height:40px;
+  width:70px;
+}
+
+.nav-button-2-dimensions { /* sets navigation link button "portfolio" width and height */
+  height:40px;
+  width:125px;
+}
+
+.nav-button-3-dimensions { /* sets navigation link button "about" width and height */
+  height:40px;
+  width:80px;
+}
+
+.nav-1-position { /* "home" button navigation position */
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 20%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);;
+}
+
+.nav-2-position { /* link "portfolio" navigation position */
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 9%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);;
+}
+
+.nav-3-position { /* link "about" navigation position */
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 5%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);;
+}
+
+.rounded-style {border-radius: 8px;} /* gives button rounded border*/
+
+

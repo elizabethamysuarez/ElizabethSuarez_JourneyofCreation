@@ -1,0 +1,313 @@
+/* portfolio.style.css */
+
+                     /*applies to all*/
+
+* {
+  color: black;
+  font-family: Consolas, "Courier New", Monaco, "Times New Roman", serif;
+}
+
+* { /*might not need this, might be the issue*/
+  box-sizing: border-box;
+}
+
+                         /*images*/ 
+
+
+                       /*containers*/ 
+.maincontainer {
+  display: inline-flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+  gap: 13px; /* 
+  flex-direction: column; 
+  align-items: flex-start;
+  justify-items: center
+  align-content: space-between; */
+  }
+
+                     /* ---fonts--- */
+
+.normal-weight {
+  font-weight: normal;
+}
+
+
+                     /*positioning*/
+
+.name-position {
+  margin: 0;
+  position: absolute;
+  top: 6.4%;
+  left: 10.4%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.catchphrase-position {
+   margin: 0;
+  position: absolute;
+  top: 11%;
+  left: 13%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.nav-1-position { /* "home" button navigation position */
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 20%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);;
+}
+
+.nav-2-position { /* link "portfolio" navigation position */
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 9%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);;
+}
+
+.nav-3-position { /* link "about" navigation position */
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 5%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);;
+}
+
+.relative-position {
+  position: relative;
+}
+
+.portfolio-browse-position {
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 49%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+               /* sizing (width x height) */
+
+.header-size{
+  height: 125px;
+}
+
+.nav-button-dimensions { /* sets navigation link button width and height */
+  height:40px;
+  width:70px;
+}
+
+.nav-button-2-dimensions { /* sets navigation link button "portfolio" width and height */
+  height:40px;
+  width:125px;
+}
+
+.nav-button-3-dimensions { /* sets navigation link button "about" width and height */
+  height:40px;
+  width:80px;
+}
+
+.maincontainer-size {
+  width: 800px;  /*might need to remove*/
+  height: auto;
+}
+
+.box-size {
+  width: 230px;
+  height: 400px;
+  min-height: 200px; /*fix*/
+  min-width: 230px; /*fix*/
+}
+
+.spacer-height2 {
+  height: 300px;
+}
+
+.main-height {
+  height: 1000px;
+}
+
+.container4containers {
+  width: 800px;
+  height: auto;
+}
+
+               /* modifications (margins, etc.) */
+
+.zlevel5 {
+  z-index: 5;
+}
+
+.zlevel4 {
+  z-index: 4;
+}
+
+.zlevel3 {
+  z-index: 3;
+}
+
+               /* design */
+
+.whitebackground {
+  background-color: white;
+}
+
+.box-shadow {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.grey {
+  color:lightgray;
+}
+
+
+               /* ---navigation buttons--- */
+
+.nav-button-visuals {  /* sets navigation link button visuals */
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 1px 1px
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+.nav-button-visuals:hover {
+  background-color: #aec289;
+  color: black;
+}
+
+.rounded-style {border-radius: 8px;} /* gives button rounded border*/
+
+                                                             /*header*/
+
+.bottomborder {
+  border-bottom: 2px solid #aec28920;
+}
+
+
+                                                       /*logo on left-hand side*/
+
+ .logo-position {
+  margin-top: -15px;
+  margin-left: 10px;
+  margin-right: 0px;
+} 
+
+ 
+                                                     /*main*/
+
+.main1stcontainer {
+  display: inline-flex;
+  justify-content: flex-start; 
+  flex-wrap: nowrap; 
+  gap: 45px;
+}
+
+.centering {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px; /*1420 normally, but since within a container, is different*/
+}
+
+.galleryposition {
+  margin-top: 27px;
+}
+
+
+                                                   /* footer */
+.prefooterspacer {
+  width: 1419px;
+  height: 90px;
+  background-color: white;
+}
+
+.footercontainer {
+  display: inline-flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+
+}
+
+.footersize {
+  width: 1420px;
+  height: 170px;
+}
+
+.footercolor {
+  background-color: #A9BDA195; 
+}
+
+.colorchange {
+  color: black;
+}
+
+.colorchange:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.namelink {
+  color: black;
+}
+
+.namelink:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.font17 {
+  font-size: 17px;
+}
+
+.font14half {
+  font-size: 14.5px;
+}
+
+.lineheightchange {
+  line-height: 13px;
+}
+
+.linksmargin {
+  margin-bottom: -5px;
+}
+
+.linksletterspacing {
+  letter-spacing: 1px;
+}
+
+.topcontainerpadding {
+  padding-top: 10px;
+}
+
+/* careful with */
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+ text-decoration: none; 
+}
+
+a:hover {
+ text-decoration: none; 
+}
+
+a:active {
+ text-decoration: none; 
+}

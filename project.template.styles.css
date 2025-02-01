@@ -1,0 +1,431 @@
+/* project.template.styles.css */
+
+* {
+  color: black;
+  font-family: Consolas, "Courier New", Monaco, "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+                                      /* temporary */
+
+.outline {
+  border: 2px blue solid;
+}
+
+.pinkoutline {
+  border: 2px pink solid;
+}
+
+                                    /* ---fonts--- */
+
+
+
+                                       /* style */
+.normal-weight {
+  font-weight: normal;
+}
+
+.bottomborder {
+  border-bottom: 2px solid #aec28920;
+}
+
+                                /*z-index*/
+
+.z5 {
+ z-index: 5;
+}
+
+.z4 {
+ z-index: 4;
+}
+
+.z3 {
+ z-index: 3;
+}
+
+.z2 {
+ z-index: 2;
+}
+
+.z1 {
+ z-index: 1;
+}
+
+
+                                 /* ---positioning--- */
+.name-position {
+  margin: 0;
+  position: absolute;
+  top: 6.4%;
+  left: 10.4%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.catchphrase-position {
+   margin: 0;
+  position: absolute;
+  top: 11%;
+  left: 13%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.logo-position {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.nav-1-position { /* "home" button navigation position */
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 20%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.nav-2-position { /* link "portfolio" navigation position */
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 9%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.nav-3-position { /* link "about" navigation position */
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 5%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+                                 /* sizing (weight x height) */
+.header-size{
+  height: 125px;
+}
+
+.nav-button-dimensions { /* sets navigation link button width and height */
+  height:40px;
+  width:70px;
+}
+
+.nav-button-2-dimensions { /* sets navigation link button "portfolio" width and height */
+  height:40px;
+  width:125px;
+}
+
+.nav-button-3-dimensions { /* sets navigation link button "about" width and height */
+  height:40px;
+  width:80px;
+}
+
+                                    /* navigation buttons */
+
+.nav-button-visuals {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 1px 1px
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+.nav-button-visuals:hover {
+  background-color: #aec289;
+  color: black;
+}
+
+.back-button-visuals {  
+  background-color: #E5E4E2;
+  border: none;
+  color: black;
+  padding: 1px 1px
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+.back-button-visuals:hover {
+  background-color: #aec289;
+  color: black;
+}
+
+.rounded-style {
+  border-radius: 8px;
+} 
+
+                                               /* back button */
+
+.back-button-position {
+  margin-left: 50px;
+  margin-top: 30px;
+} 
+                                               /* main article */
+
+.titlesize {
+  font-size: 50px;
+}
+
+.titleposition {
+  margin-top: 15px;
+  margin-left: 180px;
+  margin-bottom: 0px;
+}
+
+.dateposition {
+  margin-left: 190px;
+}
+
+.dateposition2 {
+  margin-top: -5px;
+  margin-bottom: 50px;
+}
+
+.datecolor {
+  color: grey;
+}
+
+      /* (wording begins) */
+
+.maincontainer {
+  display: inline-flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+}
+
+.centering {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1420px;
+}
+
+.try {
+  display: inline-flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  flex-direction: column;
+}
+
+.main-container-size {
+  width: 1100px;
+  height: auto;
+}
+
+.articlesizing {
+  width: 1000px;
+  height: auto;
+}
+
+.tutorial-beginning-position {
+  margin-top: -12px;
+}
+
+.prefooterspacer {
+  width: 1419px;
+  height: 90px;
+  background-color: white;
+}
+
+                /* code box */
+
+.codebox {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+}
+
+.overflowscroll {
+  overflow: scroll;
+}
+
+.box-shadow {
+  box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, 0.6);
+}
+
+.terminaloutline {
+  border: 2px rgba(0, 0, 0, 0.2) solid;
+}
+
+.codeboxposition {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container4container {
+  width: 1419px;
+  height: 560px;
+}
+
+.container4container2 {
+  width: 1419px;
+  height: auto;
+}
+
+.upperline-dims {
+  width: 800px;
+  height: 20px;
+  background-color: black;
+}
+
+.textcolorwhite {
+  color: white;
+}
+
+.codenamebox {
+  margin-bottom: -16px;
+}
+
+                       /*copy code button*/
+
+.copy-button-visuals {
+  background-color: #a9bda197;
+  border: 1px darkgreen solid;
+  color: black; 
+  padding: 1px 1px
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cb-dimensions {
+  width: 145px;
+  height: 45px;
+}
+
+.cbmargins {
+  margin-top: -100px;
+  margin-left: 925px;
+}
+
+                                    /* compiler introduction */
+
+
+.howto-images {
+  width: 1000px;
+  height: 500px;
+}
+
+.howto-vertical-margins {
+  margin-top: 
+}
+
+.skip-button {
+  width: 200px;
+  height: 30px;
+}
+
+.skip-button-dims {
+  width: 200px;
+  height: 30px;
+}
+
+.addmarginbelow {
+  margin-bottom: 15px;
+}
+
+.fontsize50 {
+  font-size: 50px;
+}
+
+                                                     /* footer */
+.footercontainer {
+  display: inline-flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+
+}
+
+.footersize {
+  width: 1420px;
+  height: 170px;
+}
+
+.footercolor {
+  background-color: #A9BDA195; 
+}
+
+.colorchange {
+  color: black;
+}
+
+.colorchange:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.namelink {
+  color: black;
+}
+
+.namelink:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.font17 {
+  font-size: 17px;
+}
+
+.font14half {
+  font-size: 14.5px;
+}
+
+.lineheightchange {
+  line-height: 13px;
+}
+
+.linksmargin {
+  margin-bottom: -5px;
+}
+
+.linksletterspacing {
+  letter-spacing: 1px;
+}
+
+.topcontainerpadding {
+  padding-top: 10px;
+}
+
+/* careful with */
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+ text-decoration: none; 
+}
+
+a:hover {
+ text-decoration: none; 
+}
+
+a:active {
+ text-decoration: none; 
+}
+

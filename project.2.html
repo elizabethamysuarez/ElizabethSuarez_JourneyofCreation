@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Project Name | Elizabeth Suarez</title>
+  <link href="project.template.styles.css" rel="stylesheet">
+  <script>
+  //Credit to OpenAI's GPT-3.5 model
+  function CopyCodeToClipboard() {
+  // Get the <pre> element
+  var codeElement = document.getElementById("code2bcopied");
+
+  if (codeElement) {
+    // Create a range for the <pre> element
+    var range = document.createRange();
+    range.selectNode(codeElement);
+
+    // Select the content of the <pre> element
+    var selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+
+    // Copy the selected content
+    try {
+      var successful = document.execCommand("copy");
+      var message = successful ? "Code copied to clipboard!" : "Copying failed.";
+      alert(message);
+    } catch (err) {
+      console.error("Unable to copy: ", err);
+    }
+
+    // Clear the selection
+    selection.removeAllRanges();
+  } else {
+    alert("No <pre> element found.");
+  }
+}
+  //end credit to OpenAI's GPT-3.5 model
+  </script>
+</head>
+
+<body>
+		<!-- website header -->
+
+<div class="header-size bottomborder">
+<header> 
+
+<h1 class="normal-weight name-position">Elizabeth Suarez</h1> 
+
+<img src="images/header.clipart.alt.png" width="7%" height="12%" class="logo-position">
+
+<p class="catchphrase-position">journey of creation</p>
+
+		<!--navigation-->
+<nav>
+<a href="home.html"> <button class="nav-1-position nav-button-visuals rounded-style nav-button-dimensions"> Home </button> </a>
+
+<a href="portfolio.html"> <button class="nav-2-position nav-button-visuals rounded-style nav-button-2-dimensions underline"><ins> Portfolio </ins></button> </a>
+
+<a href="about.html"> <button class="nav-3-position nav-button-visuals rounded-style nav-button-3-dimensions"> About </button> </a>
+
+<!--fix position and link: 
+<a href="contact.html"> <button class="nav-button-visuals rounded-style nav-button-dimensions"> Contact </button> </a> --> 
+
+</nav>
+</div>
+               <!--main begins-->        
+<main>
+
+  <div> <!--name and title-->
+  <a href="portfolio.html"> <button class="back-button-visuals rounded-style nav-button-3-dimensions back-button-position"> <-Back </button> </a>
+  <p class="titlesize titleposition"> Chemistry Lab Calculator </p>
+  <p class="dateposition datecolor"> By: Elizabeth Suarez </p>
+  <p class="dateposition datecolor dateposition2"> Date: ~ 10/15/23 </p>
+  </div>
+
+  <div class="maincontainer centering"> <!--container setting-->
+  
+     <div>
+       <img src="images/testtubes.jpg" class="articlesizing">
+     </div>
+
+     <div class="articlesizing">
+      <p> One time I had an "Intro to Chemistry" class. In that class, we had to preform labs whose grades were heavily reliant on the quality of data and understanding of math that you had in the class. One day, I forgot to take a measurement for one of my labs as we were moving quickly so I was unable to do some of the calculations. The worst part was that the part that I forgot was very vital to the calculations so I couldn't even start on them. </p>
+
+<p> I had collected all the other data so knowing what I knew about math, I created a two-part calculator to help me solve for "x."</p>
+    
+<p> The whole point of the lab was to determine the
+   percentage of diluted dye was left in an unknown, previously prepared test tube based off of how much light it was absorbing
+    (not the ones above, the dyes we were working with were very diluted and 
+   the color of it was very faint). What I forgot to get 
+   was how much dye I started with. However, I had measured 
+   the wavelength of light each test tube of diluted dye was 
+   absorbing so I put that on a Excel spreadsheet, the pairs of
+    each wavelength to be the amount of dye they had. 
+  </p>
+
+  <p> I was previously told that each test tube
+    should have about .07 grams of dye in them so I tested out the outcome of my data
+     as if I had measured .07 grams of dye in my beginning test tube. We had used a total 
+     of about seven test tubes for the lab, diluting about 10mL's 
+      of the previous diluted test tube into the next each time.
+     Since we "started" with 0.07 grams of dye in the first test tube, we can do the math to 
+      figure out the percentages for the rest. 
+  </p>
+
+  <p> I could have just used 0.07 grams as my missing data point, but my problem was
+    that I was being graded on accuracy and precision. Therefore, I double checked the accuracy and precision of my work with 
+     this:
+
+   </p>
+
+</div>
+    
+    <div class="centering container4container">
+ 
+      <div class="upperline-dims centering codenamebox">
+        <p class="textcolorwhite">ChemCalculator_DyePrcntg.cpp</p>
+      </div>
+      
+      <p><pre class="overflowscroll codebox box-shadow codeboxposition centering terminaloutline" id="code2bcopied">
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+
+float tube1;
+float tube2;
+float tube3;
+        
+float dye;
+cin >> dye;
+          
+tube1 = (dye/25)*100;
+cout << tube1 << "Remainder: 3sigfigs" << endl;
+          
+tube2 = (tube1*10)/25;
+cout << tube2 << "Remainder: 3sigfigs" << endl;
+          
+for (int i=0; i<4; i++) {
+  tube3= (tube2*10)/25;
+  cout << tube3 << "Remainder: 3sigfigs" << endl;
+  tube2=tube3;
+}
+
+return 0;
+
+}
+
+ </pre></p>
+
+    <div class="cb-dimensions cbmargins">
+      <button onclick="CopyCodeToClipboard()" class="cb-dimensions rounded-style copy-button-visuals">Copy code📋</button>
+    </div>
+    </div>
+
+  <div class="articlesizing">
+    <div class="centering skip-button-dims">
+      <!--change link depending on language used in project-->
+         <a href="https://cpp.sh/"><button class="skip-button rounded-style copy-button-visuals">Try code out! ➞</button></a>
+       </div>
+
+    <p> What this did for me was that for each small value of dye that I put
+       in, it gave me the percentage of dye that was left in that specific test tube so that I could 
+       plug each one to their corresponding data points that I put into Excel earlier.
+ 
+     </p>
+
+     <p> The outputs usually look like this, including a quick reminder to round the number to three significant figures for the most accurate numbers (C++ does odd rounding sometimes, and I'd rather avoid that for now).
+      </p>
+
+      <div> <img src="images/Screenshot 2023-09-28 155108.png" class="articlesizing"> </div>
+
+      <p>
+        </p>
+        </div>
+
+  <div class="container4container2 centering tutorial-beginning-position addmarginbelow"> 
+    <div class="articlesizing centering">
+      <p>After getting the "unknown" percentages of dye in each test tube, I 
+        created another calculator that would tell me how accurate the 
+        amount of dye I guessed was depending on some data that I inputted: an inverted 
+        equation from the plotted points mentioned previously and the wavelength 
+        of light absorbed by the "unknown" test tube (which would be plugged into that inverted equation, as variable "x").
+      </p>
+       </div>
+  
+  </div>
+
+  <div class="centering container4container">
+ 
+    <div class="upperline-dims centering codenamebox">
+      <p class="textcolorwhite">ChemCalculator_Accuracy.cpp</p>
+    </div>
+    
+    <p><pre class="overflowscroll codebox box-shadow codeboxposition centering terminaloutline" id="code2bcopied">
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+float ref;
+float x;
+cin >> x;
+
+ref= ((x-0.024)/24.066);
+cout << ref << " %" << endl;
+
+float percenterror;
+
+percenterror = ((ref-0.01056)/0.01056)*100;
+cout << percenterror << endl;
+
+  return 0;
+
+  //when x=0.279, the percent error is 0.33%, reference standard is aat 0.01%
+}
+
+
+</pre></p>
+
+  <div class="cb-dimensions cbmargins">
+    <button onclick="CopyCodeToClipboard()" class="cb-dimensions rounded-style copy-button-visuals">Copy code📋</button>
+  </div>
+  </div>
+
+<div class="articlesizing">
+  <div class="centering skip-button-dims">
+    <!--change link depending on language used in project-->
+       <a href="https://cpp.sh/"><button class="skip-button rounded-style copy-button-visuals">Try code out! ➞</button></a>
+     </div>
+
+  <p>So I guessed and inserted equations into my code and on about after my fifth try, I ended up with an answer that gave me 0.33% error.</p>
+  <p>The first output is supposed to tell me the percentage of dye
+    that is left in the "unknown" test tube. The second says the percent 
+    error that inputting that value gives.
+ </p>
+  <div> <img src="images/Screenshot 2023-09-28 155225.png" class="articlesizing"> </div>
+
+<p>I had done it. I was so relieved.</p>
+<p>Despite this discovery, I was able to redo that portion of
+   the lab correctly. There, I was able to measure out 0.075 grams of 
+   dye, with 0.0128% dye in my unknown and with a 2.46 percent error.
+</p>
+<p> Of course, I had to double check the accuracy of my calculator versus my data.</p>
+<p>So I did, and it turns out that my calculator isn't that off in this case. The calculator ended up
+   saying that I had the least percent error when my grams of dye was at 0.073.
+    The real value was supposed to be 0.075, but that's super close.
+</p>
+<p>After inputting the values and doing the math, if I had stuck with the answer that 
+  my program gave me, I would have had an overall percent error of 1.81 percent. That's not bad!
+   It get's me by and get's the job done. Overall, 10/10 experience.
+</p>
+<div> <img src="images/collage.png" class="articlesizing"> </div>
+
+  </div>
+
+
+    
+
+
+  </div>
+<!--end extra-->>
+
+  </div>  <!-- main container ends -->
+
+  <div class="prefooterspacer">
+    </div>
+
+                 <!-- main ends -->
+</main>
+
+                          <!-- footer -->
+  <footer class="footercolor footersize footercontainer topcontainerpadding">
+
+    
+
+      <div>
+        <p class="font-1 linksmargin"><b> Links: </b></p>
+        <a href="home.html"> <p class="colorchange lineheightchange linksletterspacing font17"> Home </p> </a>
+        <a href="portfolio.html"> <p class="colorchange lineheightchange linksletterspacing font17">  Portfolio </p> </a>
+        <a href="about.html"> <p class="colorchange lineheightchange linksletterspacing font17">  About </p> </a>
+      </div>
+      
+      <div>
+         <p class="font-1 linksmargin"><b>Curious?</b></p>
+         <p class="colorchange lineheightchange linksletterspacing font17">What's Next</p>
+         <p class="colorchange lineheightchange linksletterspacing font17">Most Recent Project</p>
+         <p class="colorchange lineheightchange linksletterspacing font17">Latest Updates</p>
+      </div>
+
+
+      <div>
+        <br>
+        <br>
+        <br>
+        <p class="font14half linksletterspacing linksmargin"> Last updated: 8/23 </p>
+        <p class="font17 linksletterspacing"> Created by <span class="namelink">Elizabeth Suarez</span></p>
+      </div>
+
+
+  </footer>
+
+                <!-- closing open arrows/brackets -->
+</body>
+</html>

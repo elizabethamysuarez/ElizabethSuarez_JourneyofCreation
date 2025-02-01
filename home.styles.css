@@ -1,0 +1,330 @@
+/* home.styles.css */
+
+                     /*applies to all*/
+
+* {
+  color: black;
+  font-family: Consolas, "Courier New", Monaco, "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+                         /* images */
+
+.b-image-1 {
+  background-image: url("images/plants.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.b-image-2 {
+  background-image: url("images/pexels-teona-swift-1.jpg");
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+                       /*containers*/
+
+
+
+                        /* font */
+
+.font-size-1 {
+  font-size: 475%;
+}
+
+.font-size-2 {
+  font-size: 130%;
+}
+
+.normal-weight {
+  font-weight: normal;
+}
+
+.font2 {
+  font-family: "Times New Roman";
+}
+
+.fontcolorgrn {
+  color: #32de84;
+}
+
+                         /*positioning*/
+
+.name-position {
+  margin: 0;
+  position: absolute;
+  top: 6.4%;
+  left: 10.4%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.logo-position {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.catchphrase-position {
+   margin: 0;
+  position: absolute;
+  top: 11%;
+  left: 13%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.nav-1-position { 
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 20%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.nav-2-position { 
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 9%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.nav-3-position { 
+  margin: 0;
+  position: absolute;
+  top: 13%;
+  right: 5%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.welcome-position {
+  margin: 0;
+  position: absolute;
+  top: 32%;
+  left: 20%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.welcome-desc-position {
+  margin: 0;
+  position: absolute;
+  top: 42%;
+  left: 35%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.explore-button-position {
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  left: 37%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.explore-more-position {
+  margin: 0;
+  position: absolute;
+  top: 110%;
+  right: 0%;
+  -ms-transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+                     /* modifications */
+.zlevel5 {
+  z-index: 5;
+}
+
+.zlevel1 {
+  z-index: 1;
+}
+
+.opacity1 {
+  opacity: .5;
+}
+
+
+.temp {
+  border: solid;
+  color: black;
+}
+               /* sizing (width and height) */
+
+.reg-div {
+   height: 550px;
+}
+
+.footer-size {
+  height: 150px;
+}
+
+.main-button-size {
+  width: 320px;
+  height: 75px; 
+}
+
+.header-size{
+  height: 105px;
+}
+
+.nav-button-dimensions { 
+  height:40px;
+  width:70px;
+}
+
+.nav-button-2-dimensions { 
+  height:40px;
+  width:125px;
+}
+
+.nav-button-3-dimensions { 
+  height:40px;
+  width:80px;
+}
+
+.code-dimensions {
+  width: 20%;
+}
+
+.mid-div  {
+  height: 300px;
+}
+
+                      /* buttons */
+
+.main-button-visuals {  
+  background-color: #aec289;
+  border: none;
+  color: black;
+  padding: 1px 1px
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+.main-button-visuals:hover {
+  background-color: #40572d; 
+  color: white;
+}
+
+.nav-button-visuals {  
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 1px 1px
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+.nav-button-visuals:hover {
+  background-color: #aec289;
+  color: black;
+}
+
+.rounded-style {border-radius: 8px;} 
+
+/* footer */
+.footercontainer {
+  display: inline-flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+
+}
+
+.footersize {
+  width: 1420px;
+  height: 170px;
+}
+
+.footercolor {
+  background-color: #A9BDA195; 
+}
+
+.colorchange {
+  color: black;
+}
+
+.colorchange:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.namelink {
+  color: black;
+}
+
+.namelink:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.font17 {
+  font-size: 17px;
+}
+
+.font14half {
+  font-size: 14.5px;
+}
+
+.lineheightchange {
+  line-height: 13px;
+}
+
+.linksmargin {
+  margin-bottom: -5px;
+}
+
+.linksletterspacing {
+  letter-spacing: 1px;
+}
+
+.topcontainerpadding {
+  padding-top: 10px;
+}
+
+/* careful with */
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+ text-decoration: none; 
+}
+
+a:hover {
+ text-decoration: none; 
+}
+
+a:active {
+ text-decoration: none; 
+}
+
+
+
+
